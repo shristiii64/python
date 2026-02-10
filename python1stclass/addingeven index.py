@@ -64,13 +64,13 @@
 #         unique += [i]
 # print(unique) 
 arr=[2,4,6,10,18]
-target=10
+result=10
 for i in range (0,len(arr)):
     for j in range (0,len(arr)):
-        if arr[i]+arr[j]==target:
-            print("the sum of the",i,"and",j,"=", target) 
+        if arr[i]+arr[j]==result:
+            print("the sum of the",i,"and",j,"=", result) 
 # nums = [3, 2, 4]
-# target = 6
+# result = 6
 # seen = {}
 # for i in range(len(nums)):
 #     need = target - nums[i]
